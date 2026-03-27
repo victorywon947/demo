@@ -9,7 +9,7 @@ public class index {
 	@GetMapping("/")		//localhost:8080 접속할 때
 	@ResponseBody			//아래의 내용으로 응답한다.
 	public String helloworld() {
-		return "Please";
+		return "Docker 연동되었습니다";
 	}
 	
 }
